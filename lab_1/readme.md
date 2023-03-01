@@ -42,6 +42,16 @@ Linux 592331-cv31313.tmweb.ru 5.15.0-60-generic #66-Ubuntu SMP Fri Jan 20 14:29:
 3. Получаем сведения об используемом дистрибутиве:
 
 ```bash
+admin@592331-cv31313:~/mirea/IIZ_auth_NSD/auth_NSD$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 22.04.2 LTS
+Release:        22.04
+Codename:       jammy
+```
+
+4. Получаем модель процессора   
+```bash
 admin@592331-cv31313:~/mirea/IIZ_auth_NSD$ cat /proc/cpuinfo | grep "model name"
 model name      : QEMU Virtual CPU version 4.2.0
 ```
