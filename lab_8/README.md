@@ -1,8 +1,3 @@
----
-title: "Лабораторная работа 8"
-format: html
-editor: visual
----
 
 ## Цель работы
 
@@ -25,7 +20,7 @@ editor: visual
 1.  Созданный сайт:
 
     https://kondratind.github.io/
-    
+
 2.  Настраиваем .github/workflows/quarto_publish.yml
 ```
     on:
